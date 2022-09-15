@@ -3,8 +3,7 @@ a {
     color: $colorBlanco;
 
     &:hover {
-        color: $colorSecundario;
-        margin-top: 1.6rem;
+        color: $colorSecundario !important;
     }
 }
 
@@ -17,7 +16,9 @@ section {
         h2 {
             text-align: center;
             width: 40rem;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
     }
 }
+
+nav ul li{transition: all .5s;}
+nav ul li:hover{transform: scale(1.1,1.1);}

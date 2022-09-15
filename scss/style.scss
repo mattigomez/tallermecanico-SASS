@@ -1,2 +1,42 @@
 @import "colores.scss";
 @import "header.scss";
+@import "main.scss";
+@import "footer.scss";
+
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        width: 170px;
+    }
+
+    .cards {
+        width: 100%;
+        text-align: center;
+    }
+
+    .items {
+        margin: auto;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
+
+.mapa {
+    background-color: map-get($map: $colorbg, $key: bg1);
+}
+
+.bg2 {
+    background-color: map-get($map: $colorbg, $key: bg2);
+}
+
+.texto {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h1{@extend .texto;
+    font-weight: 1000;
+text-align: center;}
+h3 p{@extend .texto;
+font-weight: 400;
+}
