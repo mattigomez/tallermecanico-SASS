@@ -1,1 +1,1 @@
-El proyecto consiste en realizar una pagina web al taller mecanico familiar donde trabajo actualmente. Describiendo a que nos dedicamos y los servicios que brindamos
+El proyecto consiste en realizar una pagina web al taller mecanico familiar donde trabajo actualmente. Describiendo a que nos dedicamos y los servicios que brindamos. Durante este desarrollo se implemento SASS+SEO, aplicamos bootstrap, animaciones y realizamos una web responsive.
