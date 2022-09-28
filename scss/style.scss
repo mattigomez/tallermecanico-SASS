@@ -22,6 +22,11 @@
         width: 100%;
     }
 
+    .piepag {
+        display: flex;
+        justify-content: flex-start;
+    }
+
 }
 
 .mapa {
@@ -33,12 +38,16 @@
 }
 
 .texto {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}
-h1{@extend .texto;
-    font-weight: 1000;
-text-align: center;}
-h3 p{@extend .texto;
-font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+h1 {
+    @extend .texto;
+    font-weight: 1000;
+    text-align: center;
+}
+
+h3 p {
+    @extend .texto;
+    font-weight: 400;
+}

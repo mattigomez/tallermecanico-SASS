@@ -1,13 +1,16 @@
 .carousel-inner img {
     width: 100%;
     max-height: 600px;
-    max-width: 1400px;
-}
-
-.carousel {
-    padding-left: .5rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .bgTerciario {
     background-color: wheat;
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
